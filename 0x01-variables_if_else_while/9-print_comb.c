@@ -1,48 +1,40 @@
-#include <stdlib.h>
-
-#include <time.h>
-
-#include <stdio.h>
+ #include <stdio.h>
 
 /**
 
- *main - Task 1 print the last digit of the number stored in the variable n
+* main - Entry point
 
- *Return: 0
+*
 
- */
+* Return: Always 0
+
+*/
 
 int main(void)
 
 {
 
-        int ch;
+int num;
 
+for (num = 0; num <= 9; num++)
 
+{
 
-        for (ch = 48; ch <= 57; ch++)
+putchar((num % 10) + 0);
 
-        {
+if (num == 9)
 
-        putchar(ch);
+continue;
 
-        if (ch != 57)
+putchar(,);
 
-        {
+putchar( );
 
-        putchar(44);
+}
 
-        putchar(32);
+putchar(n);
 
-        }
-
-        }
-
-        putchar(10);
-
-
-
-        return (0);
+return (0);
 
 }
 
