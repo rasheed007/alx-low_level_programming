@@ -5,36 +5,27 @@
 #include <time.h>
 
 /**
-
-*main- entry point
-
-*Description: Alphabets
-
-*Return: zero on success
-
-*/
+ * *main- entry point
+ * *Description: Alphabets
+ * *Return: zero on success
+ */
 
 int main(void)
 
 {
 
-char letter = a;
+		char letter = 'a';
 
+			while (letter <= 'z')
 
+					{
 
-while (letter <= z)
+								putchar(letter);										letter++;
+											}
 
-{
+				putchar('\n');
 
-putchar(letter);
-
-letter++;
-
-}
-
-putchar(n);
-
-return (0);
+					return (0);
 
 }
 
