@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
-
+*
 *main - Entry point, positive or negative, print sign of random number
 
 *@void: Empty parameter list for main
