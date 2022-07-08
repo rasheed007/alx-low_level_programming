@@ -4,7 +4,6 @@
  * more_numbers - prints more numbers
  * Return:void
  */
-
 void more_numbers(void)
 {
 	char n, c;
@@ -19,9 +18,9 @@ void more_numbers(void)
 			{
 				_putchar('1');
 				c = n % 10;
-			}	
+			}
 			_putchar ('0' + c);
-		}	
+		}
 		_putchar('\n');
 		i++;
 	}
